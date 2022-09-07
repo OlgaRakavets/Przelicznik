@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<article id="container">
+		<section id="toFixedContainer">
+			<div class="toFixed">
+			
+						<input class="poPrzecinku" type="number" min="0" max="8" step="1" value="4" onkeyup=" containerToFixed()" onchange=" containerToFixed()" >
+						<p class="textPoPrzecinku">Ilość miejsc po przecinku</p>
+				
+			</div>
+		</section>
+		<section id="Plyn" class="plyn">
+			<div class="h2_plyn">
+				<h2>Wyliczanie płynów</h2>
+			</div>
+			<div class="tabela_plyn">
+				<table >
+					<tr>
+
+						<th>Płyn</th>
+						<th>ML</th>
+						<th>Sztuki</th>
+					</tr>
+					<tr>
+						<td>Towar_1</td>
+						<td><input class="plynTowar_1_Ml" value="" onkeyup="wyliczSztukiPlynu()"></input></td>
+						<td><input class="plynTowar_1_Szt" value="" onkeyup="wyliczSztukiPlynu()"></input></td>
+					</tr>
+					<tr>
+						<td>Towar_2</td>
+						<td><input class="plynTowar_2_Ml" value="" onkeyup="wyliczSztukiPlynu()"></input></td>
+						<td><input class="plynTowar_2_Szt" disabled></input></td>
+					</tr>
+				</table>
+			</div>
+
+		</section>
+		<section id="blacha">
+			<div class="h2_blacha">
+				<h2>Wyliczanie blach </h2>
+			</div>
+			<div class="tabela_blacha">
+				<table>
+				<tr>
+
+					<th>Blacha</th>
+					<th>Długość</th>
+					<th>Szerokość</th>
+					<th>Ilość</th>
+				</tr>
+				<tr>
+					<td>Towar_1</td>
+					<td><input id="blachaTowar_1_Dl"  value="" onkeyup="wyliczSztukiBlach()"></input></td>
+					<td><input id="blachaTowar_1_Szer"value="" onkeyup="wyliczSztukiBlach()"></input></td>
+					<td><input id="blachaTowar_1_Ilosc" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+				</tr>
+				<tr>
+					<td>Towar_2</td>
+					<td><input id="blachaTowar_2_Dl" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+					<td><input id="blachaTowar_2_Szer" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+					<td> <input id="blachaTowar_2_Ilosc"  disabled></input> </td>
+				</tr>
+			</table>
+			</div>
+			
+		</section>
+
+	</article>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>

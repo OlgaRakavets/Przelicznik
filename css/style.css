@@ -1,0 +1,96 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+table,
+th,
+td {background-color:rgb(247, 247, 250) ; 
+    border: 1px solid rgb(195, 176, 210);
+    border-collapse: collapse;
+
+}
+
+table {
+    width: 100px;
+  
+}
+
+#container {
+    margin-top: 5%;
+   
+justify-content: center;
+    border: 2px solid rgba(181, 180, 179, 0.3);
+    background-color:rgba(87, 78, 146, 0.9);
+    max-width: 700px;
+    min-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+    color:rgb(15, 17, 32);
+}
+input{width: auto;
+    color:rgb(15, 17, 32);
+    background-color:rgb(247, 247, 250) ; 
+    border: none;
+    caret-color: rgb(105, 51, 160);
+    cursor:text;
+    
+}
+  @media (max-width:515px) {
+input{height:18px;
+    width:80px;
+}
+.toFixed{
+    display: flex;
+}
+.textPoPrzecinku{
+    margin-left: 3px;
+
+}
+  }
+  @media (max-width:335px) {
+    input{height:18px;
+        width:50px;
+    }
+    .toFixed{
+        display: flex;
+    }
+    .textPoPrzecinku{
+        margin-left: 3px;
+    
+    }
+      }
+.h2_plyn {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+ 
+}
+.h2_blacha{margin-bottom: 3%;
+    text-align: center; 
+}
+
+.tabela_plyn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.tabela_blacha {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 12%;
+}
+
+#toFixedContainer{
+    margin: 1.5%;
+}
+.textPoPrzecinku{
+    margin-top: 2px;
+   font-size: 12px;
+color:rgb(15, 17, 32, 0.8) ;
+
+}
