@@ -55,7 +55,6 @@ input{height:18px;
   @media (max-width:659px) {
     input{height:18px;
         width:80px;
-        /*sdsfsfs*/
     }
     .toFixed{
         display: flex;
