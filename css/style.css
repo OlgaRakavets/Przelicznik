@@ -93,9 +93,7 @@ input{height:18px;
     #container{background-color: aquamarine;
          width:400px ;   
     }
-    input{
-        width: 70px;
-    }
+      }
   @media (max-width:420px) {
     input{height:18px;
         width:50px;
