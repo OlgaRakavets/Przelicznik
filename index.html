@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+/test
 
 <head>
 	<meta charset="UTF-8">
@@ -14,10 +15,11 @@
 	<article id="container">
 		<section id="toFixedContainer">
 			<div class="toFixed">
-			
-						<input class="poPrzecinku" type="number" min="0" max="8" step="1" value="4" onkeyup=" containerToFixed()" onchange=" containerToFixed()" >
-						<p class="textPoPrzecinku">Ilość miejsc po przecinku</p>
-				
+
+				<input class="poPrzecinku" type="number" min="0" max="8" step="1" value="4"
+					onkeyup=" containerToFixed()" onchange=" containerToFixed()">
+				<p class="textPoPrzecinku">Ilość miejsc po przecinku</p>
+
 			</div>
 		</section>
 		<section id="Plyn" class="plyn">
@@ -25,7 +27,7 @@
 				<h2>Wyliczanie płynów</h2>
 			</div>
 			<div class="tabela_plyn">
-				<table >
+				<table>
 					<tr>
 
 						<th>Płyn</th>
@@ -52,28 +54,28 @@
 			</div>
 			<div class="tabela_blacha">
 				<table>
-				<tr>
+					<tr>
 
-					<th>Blacha</th>
-					<th>Długość</th>
-					<th>Szerokość</th>
-					<th>Ilość</th>
-				</tr>
-				<tr>
-					<td>Towar_1</td>
-					<td><input id="blachaTowar_1_Dl"  value="" onkeyup="wyliczSztukiBlach()"></input></td>
-					<td><input id="blachaTowar_1_Szer"value="" onkeyup="wyliczSztukiBlach()"></input></td>
-					<td><input id="blachaTowar_1_Ilosc" value="" onkeyup="wyliczSztukiBlach()"></input></td>
-				</tr>
-				<tr>
-					<td>Towar_2</td>
-					<td><input id="blachaTowar_2_Dl" value="" onkeyup="wyliczSztukiBlach()"></input></td>
-					<td><input id="blachaTowar_2_Szer" value="" onkeyup="wyliczSztukiBlach()"></input></td>
-					<td> <input id="blachaTowar_2_Ilosc"  disabled></input> </td>
-				</tr>
-			</table>
+						<th>Blacha</th>
+						<th>Długość</th>
+						<th>Szerokość</th>
+						<th>Ilość</th>
+					</tr>
+					<tr>
+						<td>Towar_1</td>
+						<td><input id="blachaTowar_1_Dl" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+						<td><input id="blachaTowar_1_Szer" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+						<td><input id="blachaTowar_1_Ilosc" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+					</tr>
+					<tr>
+						<td>Towar_2</td>
+						<td><input id="blachaTowar_2_Dl" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+						<td><input id="blachaTowar_2_Szer" value="" onkeyup="wyliczSztukiBlach()"></input></td>
+						<td> <input id="blachaTowar_2_Ilosc" disabled></input> </td>
+					</tr>
+				</table>
 			</div>
-			
+
 		</section>
 
 	</article>
