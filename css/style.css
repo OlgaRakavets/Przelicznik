@@ -22,13 +22,14 @@ table {
 justify-content: center;
     border: 2px solid rgba(181, 180, 179, 0.3);
     background-color:rgba(87, 78, 146, 0.9);
-    max-width: 700px;
-    min-width: auto;
+    width: 700px;
+   
     margin-left: auto;
     margin-right: auto;
    
     color:rgb(15, 17, 32);
 }
+
 input{width: auto;
     color:rgb(15, 17, 32);
     background-color:rgb(247, 247, 250) ; 
@@ -37,7 +38,7 @@ input{width: auto;
     cursor:text;
     
 }
-  @media (max-width:515px) {
+  @media (max-width:710px) {
 input{height:18px;
     width:80px;
 }
@@ -46,10 +47,54 @@ input{height:18px;
 }
 .textPoPrzecinku{
     margin-left: 3px;
-
+}
+#container{
+     width:600px ;   
 }
   }
-  @media (max-width:335px) {
+  @media (max-width:659px) {
+    input{height:18px;
+        width:80px;
+    }
+    .toFixed{
+        display: flex;
+    }
+    .textPoPrzecinku{
+        margin-left: 3px;
+    }
+    #container{
+         width:550px ;   
+    }
+      }
+      @media (max-width:559px) {
+        input{height:18px;
+            width:80px;
+        }
+        .toFixed{
+            display: flex;
+        }
+        .textPoPrzecinku{
+            margin-left: 3px;
+        }
+        #container{
+             width:500px ;   
+        }
+          }
+  @media (max-width:460px) {
+    input{height:18px;
+        width:80px;
+    }
+    .toFixed{
+        display: flex;
+    }
+    .textPoPrzecinku{
+        margin-left: 3px;
+    }
+    #container{
+         width:400px ;   
+    }
+      }
+  @media (max-width:410px) {
     input{height:18px;
         width:50px;
     }
@@ -60,7 +105,25 @@ input{height:18px;
         margin-left: 3px;
     
     }
+    #container{
+        width:315px ;   
+   }
       }
+      @media (max-width:323px) {
+        input{height:18px;
+            width:50px;
+        }
+        .toFixed{
+            display: flex;
+        }
+        .textPoPrzecinku{
+            margin-left: 3px;
+        
+        }
+        #container{
+            width:290px ;   
+       }
+          }
 .h2_plyn {
     text-align: center;
     margin-top: 8%;
