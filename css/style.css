@@ -94,7 +94,7 @@ input{height:18px;
          width:400px ;   
     }
       }
-  @media (max-width:410px) {
+  @media (max-width:420px) {
     input{height:18px;
         width:50px;
     }
