@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    
     margin: 0;
 }
 
@@ -80,7 +80,7 @@ input{height:18px;
              width:500px ;   
         }
           }
-  @media (max-width:460px) {
+  @media (max-width:460px ) {
     input{height:18px;
         width:80px;
     }
@@ -123,6 +123,11 @@ input{height:18px;
         #container{background-color: rgb(246, 138, 6);
             width:290px ;   
        }
+          }
+          @media (orientation:landscape){
+            .container{
+                height:600px ;
+            }
           }
 .h2_plyn {
     text-align: center;
