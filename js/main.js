@@ -14,7 +14,7 @@ function wyliczSztukiBlach(){
 )
     let towar_1_szer=parseFloat(document.getElementById("blachaTowar_1_Szer").value.replace(/\,/g, ".")
 )
-    let towar_1_ilosc=parseFloat(document.getElementById("blachaTowar_1_Ilosc").value)
+    let towar_1_ilosc=parseFloat(document.getElementById("blachaTowar_1_Ilosc").value.replace(/\,/g, "."))
 let towar_2_dl=parseFloat(document.getElementById("blachaTowar_2_Dl").value.replace(/\,/g, ".")
 )
 let towar_2_szer=parseFloat(document.getElementById("blachaTowar_2_Szer").value.replace(/\,/g, "."))
